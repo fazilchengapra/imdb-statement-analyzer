@@ -1,0 +1,20 @@
+.venv
+__pycache__
+*.pyc
+.git
+.gitignore
+.env
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.ipynb_checkpoints
+
+# Not needed inside the image
+data
+notebooks
+tests
+models/*.pkl
+models/*.joblib
+mlflow.db
+mlflow.db-journal
+mlartifacts
