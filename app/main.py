@@ -12,7 +12,7 @@ async def root():
     return {"message": "hello world"}
 
 
-@app.get("/predict")
+@app.post("/predict")
 def predict(request: ReviewReq):
     review = request.review
 
