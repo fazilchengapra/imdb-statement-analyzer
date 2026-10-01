@@ -25,4 +25,4 @@ def predict(request: ReviewReq):
         sentiment = "negative"
         confidence = probability
 
-    return {"sentiment": sentiment, "confidence": confidence}
+    return {"sentiment": sentiment, "row_score": confidence}

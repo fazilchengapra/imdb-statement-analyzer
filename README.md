@@ -35,7 +35,7 @@ Two endpoints, both defined in `app/main.py`:
 | Method | Path       | Description                                   |
 | ------ | ---------- | --------------------------------------------- |
 | `GET`  | `/`        | Health check, returns `{"message": "hello world"}` |
-| `GET`  | `/predict` | Classify a review, body `{"review": "<text>"}`  |
+| `POST`  | `/predict` | Classify a review, body `{"review": "<text>"}`  |
 
 Response shape:
 
@@ -51,7 +51,7 @@ calibrated probability. A malformed body returns `422`.
 Example:
 
 ```bash
-curl -X GET localhost:8000/predict \
+curl -X POST localhost:8000/predict \
   -H 'Content-Type: application/json' \
   -d '{"review":"A masterpiece, I loved every minute of it."}'
 ```
