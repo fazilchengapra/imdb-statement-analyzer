@@ -1,6 +1,8 @@
 from fastapi import FastAPI
-from .schemas.review import ReviewReq
+
 from app.ml.predict import predict_review
+
+from .schemas.review import ReviewReq
 
 app = FastAPI(title="imdb-sentiment-analyzer", version="1.0.0")
 

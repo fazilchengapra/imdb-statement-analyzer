@@ -13,6 +13,7 @@ __pycache__
 data
 notebooks
 tests
+mlruns
 mlflow.db
-mlflow.db-journal
+mlflow.db-*
 mlartifacts

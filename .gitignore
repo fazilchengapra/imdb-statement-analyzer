@@ -19,8 +19,9 @@ wheels/
 .env
 
 # MLflow tracking store and artifacts
+mlruns/
 mlflow.db
-mlflow.db-journal
+mlflow.db-*
 mlartifacts/
 
 # Trained models
