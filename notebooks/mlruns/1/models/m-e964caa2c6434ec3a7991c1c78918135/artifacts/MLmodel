@@ -1,0 +1,23 @@
+artifact_path: /home/fazil-chengapra/Desktop/DeepDive/imdb-sentiment-analyzer/notebooks/mlruns/1/models/m-e964caa2c6434ec3a7991c1c78918135/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-e964caa2c6434ec3a7991c1c78918135
+model_size_bytes: 44832780
+model_uuid: m-e964caa2c6434ec3a7991c1c78918135
+prompts: null
+run_id: 61d97a91a0c94724afcfa3dcd32a7621
+utc_time_created: '2026-10-01 09:27:37.880952'

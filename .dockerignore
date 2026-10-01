@@ -13,8 +13,6 @@ __pycache__
 data
 notebooks
 tests
-models/*.pkl
-models/*.joblib
 mlflow.db
 mlflow.db-journal
 mlartifacts
